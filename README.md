@@ -21,7 +21,7 @@ To install and run this project, you will need to have Node.js and npm installed
 
 ### **API**
 
-The project uses the [CoinMarketCap API](https://coinlayer.com/) to fetch live conversion rates for different cryptocurrencies. The API in its free version has a limited amount of requests.
+The project uses the [CoinLayer API](https://coinlayer.com/) to fetch live conversion rates for different cryptocurrencies. The API in its free version has a limited amount of requests.
 
 ---
 
