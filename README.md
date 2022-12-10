@@ -1,4 +1,4 @@
-# Crypto Currency Converter - Live Rates
+# Crypto Currency Converter
 
 ### This simple project is a practice app working with React and fetching data from an API. It allows users to convert between different cryptocurrencies using live rates from a third-party API.
 
