@@ -2,8 +2,9 @@
 
 This simple project is a practice app working with React and fetching data from an API. It allows users to convert between different cryptocurrencies using live rates from a third-party API.
 
-<img src="https://user-images.githubusercontent.com/92989835/206878979-4e128ed2-47fc-49ed-991a-e5fe05e0bb7b.jpg" width="200" center>
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/92989835/206878979-4e128ed2-47fc-49ed-991a-e5fe05e0bb7b.jpg" width="200" >
+</p>
 
 ---
 
