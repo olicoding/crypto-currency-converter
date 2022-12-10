@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Crypto Currency Converter - Live Rates
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This simple project is a practice app working with React and fetching data from an API. It allows users to convert between different cryptocurrencies using live rates from a third-party API.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### **Installation**
 
-### `npm start`
+To install and run this project, you will need to have Node.js and npm installed on your computer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+> clone repository
+> npm i
+> npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### **API**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project uses the [CoinMarketCap API](https://coinlayer.com/) to fetch live conversion rates for different cryptocurrencies. The API in its free version has a limited amount of requests.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Tech Stack**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js
+- Axios
+- CoinLayer API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### **Usage**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To use the converter, simply select the currencies you want to convert between, enter the amount you want to convert, and click the "Convert" button. The converted amount will be displayed below.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **Limitations**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Currently, the project is limited by the number of free requests that can be made to the API. As a result, the conversion rates may not always be available or up-to-date. In the future, I plan to add caching and other improvements to remove this limitation.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Roadmap**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Add more currencies and options for conversion
+- Improve the UI/UX of the converter
+- Add caching to reduce the number of API requests and improve performance
+- Add testing and accessibility features
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### **Contributing**
 
-### Analyzing the Bundle Size
+If you are interested in contributing to this project, please follow these guidelines:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Fork the repository and create a new branch for your proposed changes
+- Make sure your code follows the same coding style as the rest of the project
+- Write tests for your code, if applicable
+- Submit a pull request with a clear description of your changes and why they are necessary
