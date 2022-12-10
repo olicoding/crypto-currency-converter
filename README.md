@@ -1,6 +1,6 @@
 # Crypto Currency Converter
 
-### This simple project is a practice app working with React and fetching data from an API. It allows users to convert between different cryptocurrencies using live rates from a third-party API.
+This simple project is a practice app working with React and fetching data from an API. It allows users to convert between different cryptocurrencies using live rates from a third-party API.
 
 ![crypto-converter](https://user-images.githubusercontent.com/92989835/206878685-220a88a1-9b3f-4c1d-8827-4a227da6c6e1.jpg)
 
